@@ -1,11 +1,3 @@
-# [timewave](http://http://rod.today/timewave)
+# [is it opposite day](http://http://rod.today/is-it-opposite-day)
 
-> #100DaysOfCode: Day 2
-
-### Install
-
-```
-$ npm install -g gulp
-$ npm install
-$ gulp serve
-```
+> #100DaysOfCode: Day 3

@@ -1,5 +1,5 @@
 {
-  "name": "waveclock",
+  "name": "is-it-opposite-day",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rod/timewave.git"
+    "url": "git+https://github.com/rod/is-it-opposite-day.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rod/timewave/issues"
+    "url": "https://github.com/rod/is-it-opposite-day/issues"
   },
-  "homepage": "https://github.com/rod/timewave#readme"
+  "homepage": "https://github.com/rod/is-it-opposite-day#readme"
 }

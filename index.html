@@ -1,37 +1,32 @@
 <!doctype html>
 <html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Is It Opposite Day?</title>
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <main>
+      <h1>Is it Opposite Day?</h1>
+      <h2 id="response" class="abril">NO</h2>
+    </main>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Timewave</title>
-  <!-- Styles -->
-  <link href="https://fonts.googleapis.com/css?family=Monoton|Work+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="styles/main.css">
-</head>
-
-<body>
-  <main>
-    <canvas id="wave"></canvas>
-    <header class="header target">
-      <h1>Timewave</h1>
-      <p>
-        If you're gonna watch a clock, watch a clock that waves. Use your <kbd>return</kbd> go into zen mode. Shout out to <a href="http://www.chartjs.org/" target="_blank">Chart.js</a> &amp; <a href="http://momentjs.com/" target="_blank">Moment.js</a>
-      </p>
-
+    <footer>
       <p>
         <iframe src="https://ghbtns.com/github-btn.html?user=rod&type=follow" frameborder="0" scrolling="0" width="95px" height="20px"></iframe>
         <a href="https://twitter.com/buddjennings" class="twitter-follow-button" data-show-count="false">Follow @buddjennings</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
       </p>
-    </header>
-    <small id="zen">Zen Mode</small>
-    <small class="plug target">Made with &hearts; by <a href="http://rod.today">Rod</a></small>
-    <small id="time"></small>
-  </main>
-  <!-- Scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.min.js"></script>
-  <script src="scripts/main.js"></script>
-</body>
+
+      <p>
+        <small>Made with &hearts; by <a href="http://rod.today">Rod</a></small>
+      </p>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
 </html>
